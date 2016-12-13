@@ -181,7 +181,7 @@ function initializeMap() {
       // Added 2016-12-08 DGM to open marker when clicked on
       console.log(marker);
       console.log(map);
-      infoWindow.open(marker, map); 
+      infoWindow.open(map, marker); 
     });
 
     // this is where the pin actually gets added to the map.
