@@ -1,40 +1,4 @@
 
-
-
-/*
-var forRole = HTMLheaderRole.replace("%data%", "Engineer at Large")
-
-var awesomeThoughts = "I am David and I am AWESOME"
-var funThoughts = awesomeThoughts.replace("AWESOME", "FUN")
-
-$("#main").append(funThoughts)
-
-
-
-var grantekManager = {};
-grantekManager.position = "Engineering Manager";
-grantekManager.startDate = "2016-12-01";
-grantekManager.endDate = "Present";
-grantekManager.city = "Burlington";
-
-var educationQueens = {};
-educationQueens["name"] = "Queen's University";
-educationQueens["startDate"] = "1999-09-01";
-educationQueens["endDate"] = "2003-05-01";
-educationQueens["city"] = "Kingston";
-
-var forHTMLbioPic = HTMLbioPic.replace("%data%", bio.pictureURL)
-var forHTMLwelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage)
-
-$("#header").prepend(forHTMLbioPic)
-$("#header").prepend(forHTMLwelcomeMsg)
-
-
-$("#main").append(grantekManager["position"])
-$("#main").append(educationQueens.name)
-
-*/
-
 var work = {
 	"jobs": [
 		{"employer": "Grantek Systems Integration Inc.",
@@ -99,6 +63,7 @@ projects.display = function() {
 
 projects.display();
 
+//David Education
 
 var education = {
 	"schools": [
@@ -132,6 +97,9 @@ var education = {
 	}]
 }
 
+
+//David BIO
+
 var bio = {
 	"name": "David McKenna",
 	"role": "Engineer at Large",
@@ -144,7 +112,10 @@ var bio = {
 		"location": "Toronto, Ontario, Canada"
 	},
 	"skills": ["Managing", "PLC Programming", "SCADA", "Delighting Customers"]
-}
+} 
+
+
+
 
 var forName = HTMLheaderName.replace("%data%", "David McKenna");
 $("#header").prepend(forName);
